@@ -10,9 +10,46 @@
   margin: 0 auto;
 }
 
+.intro{
+  height: 1000px;
+  background-color: #469dff;
+}
+
 /*
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 
 */
 /*# sourceMappingURL=style.css.map */
+
+.info{
+  height: 400px;
+  background-color:#ffffff ;
+  text-align: center;
+  font-family: 'Lato',sans-serif;
+  
+}
+
+.info__block{
+  padding-top: 100px;
+  margin: 0 20% 0 20%;
+}
+
+.info__title{
+  font-size: 50px;
+  font-weight: 300;
+  color: #3695ff;
+  padding-bottom: 70px;
+}
+
+.info__paragraph{
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 1170px;
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.info__paragraphs{
+  padding-bottom: 25px;
+}
