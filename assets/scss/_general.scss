@@ -11,16 +11,17 @@
 
 .app-main {
     position: relative;
-    top: -1px;
+    top: -2px;
 }
 
 :root {
     --main-color: #ffffff;
-    --btn-color: #3695ff;
+    --blue-color: #3695ff;
+    --bg-works: #f4f4f4;
 }
 
 .general__btn {
-    @include font('latobold', 700, 16px, 0px, var(--btn-color), uppercase);
+    @include font('latobold', 700, 16px, 0px, var(--blue-color), uppercase);
     padding: 20px 70px;
     border-radius: 30px;
     border: none;

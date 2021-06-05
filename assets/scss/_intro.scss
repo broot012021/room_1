@@ -1,5 +1,7 @@
 .intro {
     background: url('/assets/images/intro_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 170px 0 140px;
     
     .container {
@@ -14,6 +16,10 @@
         text-align: center;
         margin: 40px 0 30px;
         width: 80%;
+
+        @media screen and (max-width: 576px) {
+            font-size: 40px;
+        }
     }
 
     &__text {
@@ -22,5 +28,7 @@
         line-height: 35px;
         margin-bottom: 65px;
         width: 70%;
+
+        
     }
 }
