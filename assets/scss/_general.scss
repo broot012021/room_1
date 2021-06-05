@@ -8,3 +8,20 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.app-main {
+    position: relative;
+    top: -1px;
+}
+
+:root {
+    --main-color: #ffffff;
+    --btn-color: #3695ff;
+}
+
+.general__btn {
+    @include font('latobold', 700, 16px, 0px, var(--btn-color), uppercase);
+    padding: 20px 70px;
+    border-radius: 30px;
+    border: none;
+}
