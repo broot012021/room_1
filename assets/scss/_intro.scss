@@ -1,0 +1,34 @@
+.intro {
+    background: url('/assets/images/intro_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0 140px;
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        @include font('latoblack', 900, 50px, 1px, var(--main-color), uppercase);
+        text-align: center;
+        margin: 40px 0 30px;
+        width: 80%;
+
+        @media screen and (max-width: 576px) {
+            font-size: 40px;
+        }
+    }
+
+    &__text {
+        @include font('latolight', 300, 16px, 0px, var(--main-color), uppercase);
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 65px;
+        width: 70%;
+
+        
+    }
+}

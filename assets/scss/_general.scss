@@ -8,3 +8,21 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.app-main {
+    position: relative;
+    top: -2px;
+}
+
+:root {
+    --main-color: #ffffff;
+    --blue-color: #3695ff;
+    --bg-works: #f4f4f4;
+}
+
+.general__btn {
+    @include font('latobold', 700, 16px, 0px, var(--blue-color), uppercase);
+    padding: 20px 70px;
+    border-radius: 30px;
+    border: none;
+}
