@@ -1,15 +1,16 @@
 .app-header {
-    background: url('/assets/images/intro_bg.png');
-    font-size: 0;
-    padding: 20px 0;
 
     .container {
         display: flex;
         justify-content: flex-end;
+        position: relative;
     }
 }
 
 .menu {
     font-size: 30px;
     color: var(--main-color);
+    position: absolute;
+    top: 100px;
+    z-index: 1;
 }

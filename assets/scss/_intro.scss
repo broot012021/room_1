@@ -1,8 +1,30 @@
+.cookies {
+    width: 100%;
+    background: #194277;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 20px 0;
+
+    &__text {
+        @include font('latoregular', 400, 14px, null, var(--main-color), null);
+        margin-right: 40px;
+    }
+
+    &__btn {
+        @include font('latobold', 700, 12px, null, var(--cookies-btn), capitalize);
+        padding: 10px 30px;
+    }
+
+}
+
 .intro {
     background: url('/assets/images/intro_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 170px 0 140px;
+    padding: 270px 0 140px;
     
     .container {
         display: flex;
